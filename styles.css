@@ -1,9 +1,16 @@
 /*  your css code here. If applicable */
 tr,th,td{
+	height:25px;
+	width:100px;
 	border-collapse:collapse;
 	border:1px solid gray;
 	border-radius:5px;
+	padding:8px;
 }
+
 tr:nth-child(odd){
 	background:silver;
+}
+tr:nth-child(even){
+	background:wheat;
 }
